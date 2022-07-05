@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+.all{
+    width: 1130px;
+    margin: 0 auto;
+}
+a:hover, a:visited, a:focus, a:active{ text-decoration: none; color: inherit; } 
+
+h3{
+    font-size: 32px;
+}
+
+.skills-title, .hobbies-title, .academic-title, .experience-section-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+} 
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#first-letter{
+    font-size: 70px;
+}
+
+.menu-title{
+    font-family: 'Arima', cursive;
+}
+
+.menu-list{
+    display: flex;  
+}
+
+.menu-item{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-item:hover{
+    transition: 0s;
+    font-weight: bold;
+}
+
+
+#menu-item-contato{
+    font-weight: bold;
+}
+
+.title{
+   height: 600px;
+   margin-top: 200px;
+}
+
+.title-div{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.img-perfil{
+    width: 368px;
+    height: 368px;
+    border-radius: 200px;
+}
+
+.title-container{
+    height: 250px;
+    padding-top: 80px;  
+}
+
+.title-bio{
+    font-size: 52px;
+    padding-bottom: 25px;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+.subtitle-bio{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title-redes{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.title-redes-item{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title-redes-item:hover{
+    font-weight: bold;
+}
+
+.redes-seta{
+    width: 25px;
+    height: 25px;
+}
+
+.sobre-mim{
+    height: 280px;  
+}
+
+.sobre-mim-title{
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+.sobre-mim-container{
+    width: 750px;
+}
+
+.sobre-mim-paragrafo{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 19px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.skills, .hobbies, .academic{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+}
+
+.skills{
+    margin-top: 150px;
+}
+
+.skills-line{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-box{
+    width: 200px;
+    height: 160px;
+    background-color: #284b63;
+    border-radius: 10px;
+}
+
+.skills-box:hover{
+    background-color: rgba(223, 225, 255, 0.918);
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.skills-img{
+    width: 48px;
+    height: 48px;
+    margin: 85px 0 0 16px;
+}
+
+.skills-name{
+    font-size: 16px;
+    margin-left: 16px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.hobbies{
+    margin-top: 150px;
+}
+
+.hobbies-line{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies-box{
+    width: 200px;
+    height: 160px;
+    background-color: #284b63;
+    border-radius: 10px;
+}
+
+.hobbies-box:hover{
+    background-color: rgba(223, 225, 255, 0.918);
+    transition: 0s;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.hobbies-img{
+    width: 48px;
+    height: 48px;
+    margin: 85px 0 0 16px;
+}
+
+.hobbies-name{
+    font-size: 16px;
+    margin-left: 16px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.academic{
+    width: 100%;
+    height: 500px; 
+    margin-top: 150px;
+}
+
+.academic-title{
+    height: 35px;
+}
+
+.academic-courses{
+    width: 100%;
+    height: 347px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.academic-courses-box{
+    width: 500px;
+    height: 312px;
+}
+
+.academic-courses-item-img{
+    width: 400px;
+    height: 230px;
+    margin-left: 50px; 
+    background-color: white;  
+    border-radius: 20px;
+}
+
+.courses-img{
+    width: 200px;
+    height: 130px;
+    margin: 50px 100px;
+}
+
+.academic-courses-item-title{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.academic-courses-item-subtitle{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.experience{
+    width: 100%;
+}
+
+.experiencie-box{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.experience-img{
+    width: 650px;
+    height: 290px;
+}
+
+.experience-info{
+    width: 335px;
+    height: 112px;
+    margin-top: 90px;
+}
+
+.experience-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+.experience-text{
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.experiencia-botao-repo, .experiencia-botao-demo{
+    width: 165px;
+    height: 50px;
+    margin: 5px 0;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.experiencia-botao-repo{
+    background-color: #353535;
+    color: #d9d9d9;
+}
+
+.experiencia-botao-repo:hover{
+    transition:1s;
+    transform: scale(1.1, 1.1);
+}
+
+.experiencia-botao-demo{
+    background-color: #d9d9d9;
+    color: #353535;
+}
+
+.experiencia-botao-demo:hover{
+    transition:1s;
+    transform: scale(1.1, 1.1);
+}
+
+.formcontato{
+    width: 100%;
+    height: 700px;
+    margin-top: 150px;
+}
+
+.formcontato-contacto{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formcontato-esquerda{
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato-img{
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato-text{
+    width: 600px;
+}
+
+.formcontato-title{
+    margin-bottom: 30px; 
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+.formcontato-subtext{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.formcontato-form{
+    width: 600px;
+}
+
+.formcontato-input{
+    width: 590px;
+    height: 35px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif; 
+    color: #353535;
+    background-color: white;
+}
+
+.formcontato-textarea{
+    width: 590px;
+    height: 150px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif; 
+    color: #353535;
+}
+
+.formcontato-botao{
+    width: 590px;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: #353535;
+    color: #d9d9d9;
+}
+
+.formcontato-botao:hover{
+    transition:1s;
+    transform: scale(1.1, 1.1);
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-rodape{
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+
