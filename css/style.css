@@ -22,6 +22,7 @@ h3{
 
 .skills-title, .hobbies-title, .academic-title, .experience-section-title{
     text-align: center;
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 30px;
     font-family: 'Arima', cursive;
@@ -41,6 +42,8 @@ h3{
 }
 
 .menu-title{
+    font-size: 16px;
+    font-weight: bold;
     font-family: 'Arima', cursive;
 }
 
@@ -65,8 +68,8 @@ h3{
 }
 
 .title{
-   height: 600px;
-   margin-top: 200px;
+   height: 500px;
+   margin-top: 150px;
 }
 
 .title-div{
@@ -95,12 +98,13 @@ h3{
 
 .subtitle-bio{
     font-family: 'Quicksand', sans-serif;
+    line-height: 20px
 }
 
 .title-redes{
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
     padding-top: 20px;
     margin-top: 20px;
 }
@@ -120,12 +124,18 @@ h3{
 }
 
 .sobre-mim{
-    height: 280px;  
+    height: 250px;  
+}
+
+.one{
+    font-weight: bold;
+    font-style: italic;
 }
 
 .sobre-mim-title{
     font-family: 'Arima', cursive;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .sobre-mim-container{
@@ -158,7 +168,7 @@ h3{
 .skills-box{
     width: 200px;
     height: 160px;
-    background-color: #284b63;
+    background-color: #3f5d71;
     border-radius: 10px;
 }
 
@@ -168,7 +178,7 @@ h3{
     border: 2px solid #000000;
 }
 
-.skills-img{
+.skills-img img{
     width: 48px;
     height: 48px;
     margin: 85px 0 0 16px;
@@ -192,7 +202,7 @@ h3{
 .hobbies-box{
     width: 200px;
     height: 160px;
-    background-color: #284b63;
+    background-color: #3f5d71;
     border-radius: 10px;
 }
 
@@ -204,6 +214,7 @@ h3{
 }
 
 .hobbies-img{
+
     width: 48px;
     height: 48px;
     margin: 85px 0 0 16px;
@@ -233,6 +244,7 @@ h3{
 }
 
 .academic-courses-box{
+
     width: 500px;
     height: 312px;
 }
@@ -359,14 +371,15 @@ h3{
 }
 
 .formcontato-title{
-    margin-bottom: 30px; 
+    margin-bottom: 20px; 
     font-family: 'Arima', cursive;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .formcontato-subtext{
     font-size: 18px;
-    line-height: 18px;
+    line-height: 28px;
     font-family: 'Quicksand', sans-serif; 
 }
 
@@ -378,6 +391,7 @@ h3{
     width: 590px;
     height: 35px;
     margin: 10px 0;
+    border: none;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
@@ -390,6 +404,7 @@ h3{
     width: 590px;
     height: 150px;
     margin: 10px 0;
+    border: none;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
@@ -406,6 +421,7 @@ h3{
     border-radius: 5px;
     background-color: #353535;
     color: #d9d9d9;
+    margin: 10px 0;
 }
 
 .formcontato-botao:hover{
