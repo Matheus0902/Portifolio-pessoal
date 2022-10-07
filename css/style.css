@@ -14,7 +14,7 @@ body{
     width: 1130px;
     margin: 0 auto;
 }
-a:hover, a:visited, a:focus, a:active{ text-decoration: none; color: inherit; } 
+a{ text-decoration: none; color: inherit; } 
 
 h3{
     font-size: 32px;
