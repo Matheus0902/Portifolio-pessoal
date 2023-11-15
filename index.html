@@ -192,12 +192,14 @@
                         <h4 class="formcontato-subtext">Deseja entrar em contato comigo?</h4>                        
                         <h5 class="formcontato-subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h5>
                         <form class="formcontato-form" action="https://formsubmit.co/matheus_dev98@hotmail.com" method="POST">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                            <input type="hidden" name="_autoresponse" value="Sua menagem foi recebida com sucesso, obrigado pelo contato e responderei em breve!">
                             <div class="formcontato-input-container ">
                                 <input class="formcontato-input" type="text" id="nome" placeholder="Nome" maxlength="50" title="" data-tipo="nome" name="text" required>
                                 <span class="formcontato-mensagem-erro">Este campo não está válido</span>
                             </div>
                             <div class="formcontato-input-container">
-                                <input class="formcontato-input" type="email" id="email" placeholder="Email" title="" data-tipo="email" name="e-mail" required>
+                                <input class="formcontato-input" type="email" id="email" placeholder="Email" title="" data-tipo="email" name="email" required>
                                 <span class="formcontato-mensagem-erro">Este campo não está válido</span>
                             </div>
                             <div class="formcontato-input-container">
@@ -206,7 +208,7 @@
                             </div>
                             <div class="formcontato-input-container">
                                 <textarea class="formcontato-textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" maxlength="300" title="" data-tipo="mensagem" name="mensagem" required></textarea>
-                                <span class="formcontato-mensagem-erro">Este campo não está válido</span> 
+                                <span class="formcontato-mensagem-erro">Este campo não está válido</span>
                             </div>
                             <button class="formcontato-botao">Enviar mensagem</button>
                         </form>
