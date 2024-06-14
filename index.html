@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./css/style.css">
     
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Archivo+Black&display=swap" rel="stylesheet">
+        
     <title>Portifólio Pessoal</title>
 </head>
 <body>
     <div id="app">
         <header>
-            <p>Matheus</p>
+            <img src="./assets/logo.png" alt="logo da pagina">
         </header>
         <main>
             <section id="introduction">
-                <h1>Frontend Developer</h1>
+                <h1>Frontend Developer <span>.</span></h1>
                 <p>Gosto de desenvolver sites vizualmente agradáveis e responsivos</p>
+
+                <div>
+                    <p>Graduado em Análise e desenvolvimento de sistemas</p>
+
+                    <p>Atualmente aludo da Rocketseat (formação Full Stack)</p>
+                </div>
             </section>
             <section id="profile">
-                <img src="./assets/perfil.jpg" alt="Imagem de Matheus">
+                <img src="./assets/profile.png" alt="Imagem de Matheus">
             </section>
-            <section id="skils">
-                <h2>Skils</h2>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="skills-wrapper">
+                    <img src="./assets/html.png" alt="icone html">
+                    <img src="./assets/css.png" alt="icone css">
+                    <img src="./assets/js.png" alt="icone javascript">
+                    <img src="./assets/git.png" alt="icpne git">
+                </div>
             </section>
             <section id="projects">
-                <h3>Meus projetos</h3>
-                <button>veja meu trabalho</button>
+                <h2>Meus projetos</h3>
+                <button class="buttons">veja meu trabalho <img src="./assets/arrow.png" alt=""></button>
             </section>
             <section id="contact">
-                <h4>Contato</h4>
+                <h2>Contato</h4>
+                <button class="buttons">Entrar em contato <img src="./assets/arrow-blue.png" alt=""></button>
             </section>
         </main>
         <footer>
