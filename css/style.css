@@ -10,6 +10,11 @@
     --color-primary: #120a56;
     --color-secondary: #ff1c11; 
     --color-ternary: #e6ebef; 
+    --color-input-bt: #03001bc8;
+    --color-input-unfocused: rgb(77, 77, 77);
+    --color-label: color: rgb(172, 172, 172);
+    --color-skils: black;
+
 }
 
 body {
@@ -20,7 +25,6 @@ body {
 #app {
     max-width: 40rem;
     margin: 0 auto;
-
 }
 
 header {
@@ -77,7 +81,7 @@ header img {
 }
 
 #profile img{
-    width: 30rem;
+    width: 40rem;
 }
 
 h2 {
@@ -88,7 +92,7 @@ h2 {
 }
 
 #skills {
-    color: var(--color-primary);
+    color: var(--color-skils);
     background-color:var(--color-ternary);
     padding: 5rem;
 }
@@ -104,8 +108,8 @@ h2 {
 }
 
 .buttons {
+    width: 20rem;
     padding: .5rem 2rem;
-    text-align: start;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
@@ -122,7 +126,7 @@ h2 {
 
 #projects {
     color: var(--color-ternary);
-    background-color: #120a56;
+    background-color: var(--color-primary);
     padding: 5rem;
 }
 
@@ -137,7 +141,102 @@ h2 {
     padding: 5rem;
 }
 
-#contact button {
-    border: 1px solid var(--color-primary);
-    color: var(--color-primary);
+#contact h2 {
+    margin-bottom: 1.5rem;
+}
+
+#contact p {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+#contact-form fieldset {
+    border: 0;
+}
+
+#input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+#input-wrapper label {
+    color: var(--color-label);
+    opacity: var(--label-opacity);
+}
+
+#input-wrapper input {
+    height: 3rem;
+}
+
+#input-wrapper textarea {
+    height: 7.5rem;
+}
+
+#input-wrapper input, #input-wrapper textarea {
+    font-family: "Afacad", sans-serif;
+    background-color: var(--color-ternary);
+    border: 0;
+    border-bottom: 1px solid var(--color-input-unfocused);
+    margin-top: .1rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    color: var(--color-input-bt);
+    outline: none;
+}
+
+#input-wrapper input:focus, #input-wrapper textarea:focus {
+    border-color: var(--color-input-bt);
+}
+
+#input-wrapper input::placeholder, #input-wrapper textarea::placeholder {
+    font-family: "Afacad", sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-input-unfocused);
+    opacity: .8;
+}
+
+#input-wrapper input:focus::placeholder, #input-wrapper textarea:focus::placeholder {
+    color: transparent;
+}
+
+#contact-form button {
+    text-align: center;
+    border: 1px solid var(--color-input-bt);
+    color: var(--color-input-bt);
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-ternary);
+    padding: 7rem 5rem 5rem;
+}
+
+#footer-main span {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#footer-main ul {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#footer-main ul li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+#footer-main ul li a {
+    text-decoration: none;
+    color: var(--color-ternary);
+}
+
+#footer-botton {
+    margin-top: 10rem;
+    border-top: 1px solid var(--color-ternary);
+    padding-top: 5rem;
 }
