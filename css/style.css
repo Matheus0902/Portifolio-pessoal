@@ -135,6 +135,17 @@ h2 {
     color: var(--color-ternary);
 }
 
+#contacts {
+    color: var(--color-primary);
+    background-color: var(--color-ternary);
+    padding: 5rem;
+}
+
+#contacts button {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);gi
+}
+
 #contact {
     color: var(--color-primary);
     background-color: var(--color-ternary);
