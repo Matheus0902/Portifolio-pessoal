@@ -167,11 +167,12 @@ h2 {
 }
 
 #contact a, #projects a {
+    font-size: 2rem;
     color: var(--color-primary);
 }
 
 #contact img, #projects img {
-    width: 2rem;
+    width: 2.2rem;
 }
 
 #contact h2 {
@@ -264,11 +265,11 @@ h2 {
 }
 
 #slider li:nth-child(1) label{
-    right: 5.5rem;
+    right: 6rem;
 }
 
 #slider li:nth-child(3) label{
-    left: 5.5rem;
+    left: 6rem;
 }
 
 #slider label {
@@ -281,7 +282,7 @@ h2 {
     position: absolute;
     bottom: 0rem;
     left: 0;
-    top: 12rem;
+    top: 23rem;
     right: 0;
     margin: 100% auto;
     z-index: 10;
@@ -312,11 +313,12 @@ h2 {
 }
 
 #slider .project-item h1 {
+    font-size: 3.5rem;
     color: var(--color-primary);
 }
 
 #slider .project-item img {
-    width: 20rem;
+    width: 25rem;
     margin-top: 2rem;
     border-radius: 1.5rem;
 }
@@ -324,14 +326,15 @@ h2 {
 #slider .project-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
-    gap: 2rem;
+    margin-top: 9rem;
+    gap: 3rem;
 }
 
 #slider .project-buttons a {
-    width: 10rem;
+    width: 14rem;
     padding: 1rem;
     display: block;
+    font-size: 1.8rem;
     text-align: center;
     color: var(--color-ternary);
     background-color: var(--color-primary);
