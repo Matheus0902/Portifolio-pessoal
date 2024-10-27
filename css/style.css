@@ -22,14 +22,13 @@
 }
 
 body {
-    max-width: 37.5rem;
-    justify-content: center;
-    flex-direction: column;
+    background-color: var(--color-secondary);
     font-family: "Afacad", sans-serif;
     font-size: 1.6rem;
 }
 
 #app {
+    max-width: 40rem;
     margin: 0 auto;
 }
 
