@@ -17,6 +17,10 @@
 
 }
 
+* a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Afacad", sans-serif;
     font-size: 1.6rem;
@@ -108,7 +112,7 @@ h2 {
 }
 
 .buttons {
-    width: 20rem;
+    width: 25rem;
     padding: .5rem 2rem;
     text-transform: uppercase;
     font-size: 1rem;
@@ -117,39 +121,57 @@ h2 {
 
     display: flex;
     align-items: center;
-    gap: 1.5rem;
 }
 
 .buttons img {
     width: 3rem;
 }
 
-#projects {
+#projects-link {
     color: var(--color-ternary);
     background-color: var(--color-primary);
     padding: 5rem;
 }
 
-#projects button {
+#projects-link a {
+    font-size: 1.4rem;
     border: 1px solid var(--color-ternary);
     color: var(--color-ternary);
+    justify-content: space-between;
 }
 
-#contacts {
+#contact-link {
     color: var(--color-primary);
     background-color: var(--color-ternary);
     padding: 5rem;
 }
 
-#contacts button {
+#contact-link a {
+    font-size: 1.4rem;
     border: 1px solid var(--color-primary);
-    color: var(--color-primary);gi
+    color: var(--color-primary);
+    justify-content: space-between;
 }
 
 #contact {
     color: var(--color-primary);
     background-color: var(--color-ternary);
     padding: 5rem;
+}
+
+.back {
+    padding: 0;
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    gap: 1rem;
+}
+
+#contact a, #projects a {
+    color: var(--color-primary);
+}
+
+#contact img, #projects img {
+    width: 2rem;
 }
 
 #contact h2 {
@@ -159,6 +181,17 @@ h2 {
 #contact p {
     font-size: 2rem;
     margin-bottom: 3rem;
+}
+
+#contact button {
+    width: 100%;
+    padding: 1rem;
+    transition: .8s;
+}
+
+#contact button:hover {
+    color: var(--color-ternary);
+    background-color: var(--color-primary);
 }
 
 #contact-form fieldset {
@@ -216,6 +249,100 @@ h2 {
     border: 1px solid var(--color-input-bt);
     color: var(--color-input-bt);
     justify-content: center;
+}
+
+#projects {
+    background-color: var(--color-ternary);
+    padding: 5rem 5rem 10rem;
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    list-style: none;
+}
+
+#slider li:nth-child(1) label{
+    right: 5.5rem;
+}
+
+#slider li:nth-child(3) label{
+    left: 5.5rem;
+}
+
+#slider label {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    top: 12rem;
+    right: 0;
+    margin: 100% auto;
+    z-index: 10;
+    transition: .5s;
+    
+}
+#slider label:hover {
+    transform: scale(1.1);
+}
+
+#slider input {
+    display: none;
+}
+
+#slider li input:checked ~ div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider li input:checked + label{
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-ternary);
+}
+
+#slider .project-item{
+    display: none;
+}
+
+#slider .project-item h1 {
+    color: var(--color-primary);
+}
+
+#slider .project-item img {
+    width: 20rem;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+}
+
+#slider .project-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 2rem;
+}
+
+#slider .project-buttons a {
+    width: 10rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    color: var(--color-ternary);
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    transition: .5s;
+}
+
+#slider .project-buttons a:hover {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-ternary);
 }
 
 footer {
